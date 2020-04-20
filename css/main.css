@@ -11,7 +11,7 @@ html, body {
 
 .wrap {
     margin: 0;
-    padding: 80px 0 !important;
+    padding: 90px 0 !important;
     background-image: url('../images/bg-header-desktop.png');
     background-position: center center;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ html, body {
 
 .frs {
     margin: 0;
-    padding: 20px 0;
+    padding: 30px 0;
     text-align: center;
 }
 
@@ -38,4 +38,36 @@ html, body {
     font-size: 28px;
     font-weight: 300;
     letter-spacing: 1px;
+}
+
+.btn-dw {
+    margin: 0;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+}
+
+.btn-success {
+    background: hsl(171, 66%, 44%);
+    box-shadow: 0px 3px hsl(171, 67%, 30%);
+}
+
+.btn-primary {
+    background: hsl(233, 100%, 69%);
+    box-shadow: 0px 3px hsl(233, 90%, 30%);;
+}
+
+.btn:nth-child(1) {
+    margin: 0px 30px;
+}
+
+.btn:nth-child(2) {
+    margin: 0px 30px
 }

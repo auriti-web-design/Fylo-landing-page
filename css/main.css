@@ -38,6 +38,7 @@ html, body {
     font-size: 28px;
     font-weight: 300;
     letter-spacing: 1px;
+    color: #777;
 }
 
 .btn-dw {
@@ -70,4 +71,53 @@ html, body {
 
 .btn:nth-child(2) {
     margin: 0px 30px
+}
+
+#scd {
+    margin: 0;
+    padding: 45px 0;
+    text-align: center;
+}
+
+#scd h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.65;
+}
+
+#scd p {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    color: #777;
+}
+
+.space {
+    height: 100px;
+}
+
+#trd {
+    margin: 0;
+    padding: 100px;
+    height: 100vh;
+}
+
+#content-right {
+    margin: 0;
+    padding: 0 50px 20px 50px;
+}
+
+#content-right h3 {
+    font-size: 38px;
+    font: 600;
+    line-height: 1.65;
+    color: #333;
+}
+
+#content-right p {
+    font-size: 23px;
+    letter-spacing: 1.5px;
+    color: #888;
 }

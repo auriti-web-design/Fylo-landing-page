@@ -110,8 +110,9 @@ html, body {
 }
 
 #content-right h3 {
+    padding: 10px 0;
     font-size: 38px;
-    font: 600;
+    font-weight: 600;
     line-height: 1.65;
     color: #333;
 }
@@ -120,4 +121,53 @@ html, body {
     font-size: 23px;
     letter-spacing: 1.5px;
     color: #888;
+}
+
+#dvc {
+    margin: 0;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+#dvc h3 {
+    padding: 10px 0;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.65;
+    color: #333;
+}
+
+#dvc p {
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
+
+#dvc img {
+    margin: 0;
+    padding: 100px 0;
+    width: 70%;
+}
+
+#wrkf {
+    margin: 0;
+    text-align: center;
+}
+
+#wrkf h3 {
+    padding: 10px 0;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.65;
+    color: #333;
+}
+
+#wrkf p {
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
 }

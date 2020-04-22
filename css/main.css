@@ -221,3 +221,18 @@ html, body {
     letter-spacing: 1px;
     color: #777;
 }
+
+footer {
+    margin: 0;
+    padding: 50px 0;
+    background: rgb(245, 245, 245);
+}
+
+footer .foo-logo {
+    width: 50%;
+}
+
+footer .list-group-flush .list-group-item {
+    background: transparent;
+    border: none
+}
